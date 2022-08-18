@@ -653,6 +653,7 @@ button:focus {
     padding-bottom: 30px !important;
     background-image: var(--section-background-color) !important;
     color: white !important;
+    overflow-x: hidden;
 }
 
 .resume {
@@ -679,6 +680,18 @@ button:focus {
         padding-right: 15px !important;
         padding-left: 15px !important;
     }
+}
+@media (max-width: 424px) {
+    .resume-section{
+        margin-bottom: 45%;
+        margin-top: 20%;
+        overflow-y: hidden;
+    }
+        .resume {
+            padding-top: 5px;
+            padding-bottom: 10%;
+            justify-content: center;
+        }
 }
 
 .resume .resume-title {
